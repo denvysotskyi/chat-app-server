@@ -68,7 +68,7 @@ const appStart = (async () => {
         })
       })
     })
-    await httpServer.listen(PORT, () => console.log(`Server started on port ${PORT}`))
+    await httpServer.listen(PORT, () => console.log(`Server is started on port ${PORT}`))
   } catch (e) {
     console.log(e.message)
     process.exit(1)
